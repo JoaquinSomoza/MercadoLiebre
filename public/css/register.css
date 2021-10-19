@@ -100,23 +100,44 @@ p{
     margin:0 auto;
     margin-top:20px ;
     border-radius: 8px;
-    width: 80%;
-}
-.flex__form div{
-    width: 90%;
+    width: 70%;
 }
 
-.flex__form input{
-    height: 30px;
+.flex__form div{
+    width: 60%;
+    
+}
+.width__input{
+    text-align: center;
+}
+.flex__form .width__input input{
     width: 90%;
+}
+.flex__form input{
     border: none;
     margin: 20px auto;
     border-radius: 6px;
     padding: 10px;
 }
+input::placeholder{
+    text-align: center;
+}
+.main__div--padding{
+    padding-left: 10px;
+}
+.flex__file--input{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.file{
+    margin: 10px 0!important;
+    
+}
+
 button{
     height: 30px;
-    width: 80%;
+    width: 70%;
     border: none;
     margin: 20px auto;
     border-radius: 6px;
@@ -201,10 +222,9 @@ footer{
     .burger-menu{
         display: none;
     }
-
-
-
-   
+    .main__div--padding{
+        padding-left: 15px;
+        }
 
     /* css del footer tablet */
     .flex__footer{
@@ -231,7 +251,12 @@ footer{
     .main__navBar--index a{
         font-size: 17px;
     }
-    
+    .main__div--padding{
+    padding-left: 25px;
+    }
+    .file{
+        padding-right: 60px;
+    }
 }
 
 

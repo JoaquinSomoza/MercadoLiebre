@@ -48,15 +48,15 @@
     <!-- inicio del main -->
     <main class="flex__main">
         <form action="POST" class="flex__form">
-            <div class="flex__form">
-                <input type="text" name="" id="nombre" required placeholder="Nombre">
+            <div class="width__input">
+                <input type=" text" name="" id="nombre" required placeholder="Nombre">
                 <br>
                 <input type="text" name="" id="apellido" required placeholder="Apellido">
                 <br>
                 <input type="text" name="usuario" id="usuario" minlength="6" placeholder="Nombre de usuario">
             </div>
             <br>
-            <div class="flex__form">
+            <div class="width__input">
                 <label for="calendario"><b>Fecha de nacimiento:</b></label>
                 <br>
                 <input type="date" name="calendario" id="calendario" required>
@@ -64,7 +64,7 @@
                 <input type="text" name="domicilio" id="domicilio" required placeholder="Domicilio">
             </div>
             <br>
-            <div class="flex__form">
+            <div class="main__div--padding">
                 <label for=""><b>Vengo a:</b></label>
                 <br>
                 <label for="comprar">Comprar</label>
@@ -90,12 +90,12 @@
                 <input type="checkbox" name="vidaSana" id="sana" value="vidaSana">
             </div>
             <br>
-            <div class="flex__form">
-                <label for=""><b>Ingrese su foto de usuario: </b></label>
-                <input type="file" name="" id="">
+            <div class="flex__file--input ">
+                <label class="main__div--padding" for=""><b>Ingrese su foto de usuario: </b></label>
+                <input class="file" type="file" name="" id="">
             </div>
             <br>
-            <div class="flex__form">
+            <div class="width__input">
                 <input type="password" name="" id="password" required minlength="8" placeholder="Contraseña">
                 <br>
                 <input type="password" name="" id="repPassword" required minlength="8" placeholder="Repetir contraseña">
